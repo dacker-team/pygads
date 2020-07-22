@@ -244,3 +244,4 @@ class GoogleAds:
                                time_increment=time_increment,
                                time_increment_field_mapping=time_increment_dict[time_increment].get("field_mapping")
                                )
+        shutil.rmtree(self.data_directory_path, ignore_errors=True)
