@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pygads",
-    version="0.0.4",
+    version="0.0.5",
     author="Dacker",
     author_email="hello@dacker.co",
     description="A Google Ads connector",
