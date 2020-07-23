@@ -220,6 +220,8 @@ class GoogleAds:
                         field=time_increment_field_mapping if time_increment_field_mapping else time_increment,
                         filter_clause="where customer_id='%s'" % customer_id
                     )
+                    if isinstance(start, datetime.datetime):
+                        start = start.strftime("%Y%m%d")
                 if start is None:
                     start = time_increment_dict[time_increment]["since"]
 
