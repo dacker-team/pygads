@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pygads",
-    version="0.0.6",
+    version="0.0.7",
     author="Dacker",
     author_email="hello@dacker.co",
     description="A Google Ads connector",
@@ -23,7 +23,7 @@ setuptools.setup(
         "dbstream>=0.0.16",
         "googleads==24.1.0",
         "pyyaml==5.3.1",
-        "pandas==1.0.5",
+        "pandas>=1.0.5",
         "pyrror==0.0.2"
     ],
 )
